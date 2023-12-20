@@ -43,8 +43,6 @@ class Ular(Animal):
         self.panjang += panjang
         print(f"{self.nama} sekarang memiliki panjang {self.panjang} inci")
 
-
-# Contoh penggunaan:
 badak = Badak("Badak Jawa", "padang rumput")
 badak.makan()
 badak.hidup()
